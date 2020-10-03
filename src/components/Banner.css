@@ -1,0 +1,41 @@
+.banner{
+    height: 52vh;
+    position: relative;
+    background-image: url('https://source.unsplash.com/1600x900/?hotel,travel');
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+.banner__info{
+    text-transform: capitalize;
+    background-color: black;
+    color: #fff;
+    padding-top: 23vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info >  button{
+    background-color: #ff7779;
+    color:#fff;
+    margin-top: 22px;
+}
+
+.banner__info > .link >  button:hover{
+    color: #ff7779 !important;
+    background-color:#fff;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton{
+    background-color: #fff !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    color: #ff7779 !important;
+}

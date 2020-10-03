@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  z-index: 11;
+}
+.header .header__icon {
+  max-height: 100px;
+  margin-left: 10px;
+  object-fit: contain;
+  flex: 0.1;
+}
+.header .header__center {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex: 0.7;
+  height: 30px;
+  border-radius: 100px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.header .MuiInputBase-root {
+  width: 100% !important;
+}
+.header .header__center:hover {
+  border: 1px solid #ff6b81;
+}
+.header .header__right {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.header .header__right > p {
+  text-transform: capitalize;
+}

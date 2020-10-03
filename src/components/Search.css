@@ -1,0 +1,42 @@
+.search{
+    position: absolute;
+    top:45px;
+    overflow: hidden;
+    left: 25%;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.search  > h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.search > .search__peopleRange{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search > .search__peopleRange > input{
+    padding: 20px;
+    width: 50%;
+    border: none;
+}
+
+.search > .search__peopleRange > input:focus{
+    outline-width: 0;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.search > .search__peopleRange > .link > button{
+    background-color: #ff7779;
+    color: #fff;
+    text-transform: capitalize !important;
+}
